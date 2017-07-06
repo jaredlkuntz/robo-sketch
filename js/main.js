@@ -18,8 +18,7 @@ $(document).ready(
 });
 
 function clearBoard(){
-	
-	$("td").css("background-color", "white");
+	$("td").css({"background-color": "white", "opacity": 1.0});
 }
 
 function drawGrid(newEdgeLength) {
